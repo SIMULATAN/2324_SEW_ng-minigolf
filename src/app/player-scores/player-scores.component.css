@@ -1,0 +1,17 @@
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.score {
+  width: fit-content;
+  padding: 0 2em;
+  background-color: white;
+  border-radius: 0.25em;
+}
+
+.player-name {
+  text-align: center;
+  margin-top: 0;
+}

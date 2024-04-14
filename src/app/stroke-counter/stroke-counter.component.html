@@ -1,0 +1,4 @@
+<p>
+  <span style="cursor: pointer" (click)="stroke()">🏌️</span>
+  <span [ngClass]="strokes > par ? 'above' : ''">{{strokes}}/{{par}}</span>
+</p>

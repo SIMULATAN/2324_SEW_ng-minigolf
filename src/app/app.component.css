@@ -1,0 +1,16 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1628766424644-9f7d89cedf14");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  color: white;
+}

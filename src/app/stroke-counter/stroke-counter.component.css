@@ -1,0 +1,13 @@
+.above {
+  background-color: red;
+  color: white;
+}
+
+p > *:first-child {
+  margin-right: 0.5em;
+}
+
+p {
+  display: inline-block;
+  margin: 0.25em;
+}

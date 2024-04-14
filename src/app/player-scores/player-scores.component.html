@@ -1,0 +1,6 @@
+<p class="player-name">{{player}} ({{strokes}} 🏌️)</p>
+<div class="scores">
+  <div class="score" *ngFor="let par of pars; let i = index">
+    {{i+1}}. ⛳ <app-stroke-counter (stroked)="stroked()" [par]="par"></app-stroke-counter>
+  </div>
+</div>

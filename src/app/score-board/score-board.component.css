@@ -1,0 +1,8 @@
+.players {
+  display: flex;
+  flex-direction: row;
+  background-color: #e8e8e8;
+  padding: 2em;
+  border-radius: 1em;
+  gap: 2em;
+}
